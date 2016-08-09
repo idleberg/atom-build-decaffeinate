@@ -1,0 +1,47 @@
+{
+  "name": "build-decaffeinate",
+  "version": "0.5.2",
+  "description": "Atom Build provider for decaffeinate, converts CoffeeScript into JavaScript (ES6)",
+  "repository": "https://github.com/idleberg/atom-build-decaffeinate",
+  "license": "MIT",
+  "keywords": [
+    "build",
+    "convert",
+    "coffeescript",
+    "decaffeinate",
+    "javascript"
+  ],
+  "main": "lib/provider.js",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Converts CoffeeScript",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "package-deps": [
+    "build"
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.0.1",
+    "eslint-config-atom-build": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jsonlint": "^1.1.2",
+    "gulp-lesshint": "^2.0.0",
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  }
+}
