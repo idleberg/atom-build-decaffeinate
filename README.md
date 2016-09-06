@@ -5,7 +5,7 @@
 [![apm](https://img.shields.io/apm/dm/build-decaffeinate.svg?style=flat-square)](https://atom.io/packages/build-decaffeinate)
 [![Travis](https://img.shields.io/travis/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-decaffeinate)
 [![David](https://img.shields.io/david/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-decaffeinate#info=dependencies)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-decaffeinate#info=devDependencies)
+[![David](https://img.shields.io/david/dev/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-decaffeinate?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `decaffeinate`, converts CoffeeScript into JavaScript (ES6).
 
