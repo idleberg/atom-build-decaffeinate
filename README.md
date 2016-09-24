@@ -38,8 +38,8 @@ $ git clone https://github.com/idleberg/atom-build-decaffeinate build-decaffeina
 Install Node dependencies:
 
 ```bash
-cd build-decaffeinate
-npm install
+$ cd build-decaffeinate
+$ npm install
 ```
 
 ## Usage
