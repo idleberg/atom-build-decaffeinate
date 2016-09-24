@@ -35,6 +35,13 @@ Clone repository as `build-decaffeinate`:
 $ git clone https://github.com/idleberg/atom-build-decaffeinate build-decaffeinate
 ```
 
+Install Node dependencies:
+
+```bash
+cd build-decaffeinate
+npm install
+```
+
 ## Usage
 
 ### Build
