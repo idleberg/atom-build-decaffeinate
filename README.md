@@ -17,7 +17,7 @@ Install `build-decaffeinate` from Atom's [Package Manager](http://flight-manual.
 
 `$ apm install build-decaffeinate`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
