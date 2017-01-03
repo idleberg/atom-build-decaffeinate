@@ -5,7 +5,7 @@
   "repository": "https://github.com/idleberg/atom-build-decaffeinate",
   "license": "MIT",
   "keywords": [
-    "build-provider",
+    "buildprovider",
     "convert",
     "coffeescript",
     "decaffeinate",
@@ -24,7 +24,7 @@
     }
   },
   "package-deps": [
-    "build-provider"
+    "build"
   ],
   "dependencies": {
     "atom-package-deps": "^4.3.1"
