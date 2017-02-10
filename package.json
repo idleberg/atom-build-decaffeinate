@@ -1,6 +1,6 @@
 {
   "name": "build-decaffeinate",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Atom Build provider for decaffeinate, converts CoffeeScript into JavaScript (ES6)",
   "repository": "https://github.com/idleberg/atom-build-decaffeinate",
   "license": "MIT",
