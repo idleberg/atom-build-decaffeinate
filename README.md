@@ -3,9 +3,8 @@
 [![apm](https://img.shields.io/apm/l/build-decaffeinate.svg?style=flat-square)](https://atom.io/packages/build-decaffeinate)
 [![apm](https://img.shields.io/apm/v/build-decaffeinate.svg?style=flat-square)](https://atom.io/packages/build-decaffeinate)
 [![apm](https://img.shields.io/apm/dm/build-decaffeinate.svg?style=flat-square)](https://atom.io/packages/build-decaffeinate)
-[![Travis](https://img.shields.io/travis/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-decaffeinate)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-decaffeinate)](https://circleci.com/gh/idleberg/atom-build-decaffeinate)
 [![David](https://img.shields.io/david/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-decaffeinate)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-decaffeinate.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-decaffeinate?type=dev)
 
 [Atom Build](https://atombuild.github.io/) provider for `decaffeinate`, converts CoffeeScript into JavaScript (ES6).
 
@@ -21,11 +20,21 @@ Install `build-decaffeinate` from Atom's [Package Manager](http://flight-manual.
 
 Change to your Atom packages directory:
 
-```bash
-# Windows
-$ cd %USERPROFILE%\.atom\packages
+**Windows**
 
-# Linux & macOS
+```powershell
+# Powershell
+$ cd $Env:USERPROFILE\.atom\packages
+```
+
+```cmd
+:: Command Prompt
+$ cd %USERPROFILE%\.atom\packages
+```
+
+**Linux & macOS**
+
+```bash
 $ cd ~/.atom/packages/
 ```
 
