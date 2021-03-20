@@ -1,11 +1,9 @@
+import meta from '../package.json';
 import { configSchema, getConfig } from './config';
 import { EventEmitter } from 'events';
 import { satisfyDependencies } from 'atom-satisfy-dependencies';
 import { spawnSync } from 'child_process';
 import { which } from './util';
-
-// Package settings
-import meta from '../package.json';
 
 export { configSchema as config };
 
